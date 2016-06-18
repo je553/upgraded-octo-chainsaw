@@ -1,2 +1,1 @@
-require("./../css/style.css");
-document.write(require("./content.js"));
+document.getElementById("app").innerHTML = require('./content.js')

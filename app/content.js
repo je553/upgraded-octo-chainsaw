@@ -1,3 +1,3 @@
-var Content = "This works from content.js";
+var text = "POOOOOOP"
 
-module.exports = Content;
+module.exports = text

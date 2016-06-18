@@ -1,4 +1,28 @@
 body {
-	background-color:grey;
-	color:whitesmoke;
+	background-color: grey;
+	color: whitesmoke;
+	font-family: sans-serif;
+}
+
+h1 {
+	padding:2rem;
+}
+
+#root {
+	max-width: 20rem;
+	padding: 1rem;
+	margin-right: auto;
+	margin-left: auto;
+	background: #424242;
+}
+
+#app {
+	padding:2rem;
+}
+
+@media screen and (min-width: 48rem) {
+	#root {
+		max-width: 48rem;
+		padding: 2rem;
+	}
 }
